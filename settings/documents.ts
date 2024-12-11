@@ -51,11 +51,41 @@ export const Documents: Paths[] = [
     href: "/analisisdesain",
     items: [
       {
-        title: "Deeper",
+        title: "Analisis Kebutuhan",
         href: "/deeper",
         items: [
           {
-            title: "Even deeper",
+            title: "Business Requirement",
+            href: "/even-deeper",
+          },
+          {
+            title: "Stakeholder Requirement",
+            href: "/even-deeper",
+          },
+          {
+            title: "System Requirement",
+            href: "/even-deeper",
+          },
+          {
+            title: "Software Requirement",
+            href: "/even-deeper",
+          },
+        ],
+      },
+      {
+        title: "Diagram",
+        href: "/deeper",
+        items: [
+          {
+            title: "Use Case Diagram",
+            href: "/even-deeper",
+          },
+          {
+            title: "Class Diagram",
+            href: "/even-deeper",
+          },
+          {
+            title: "Flowchart",
             href: "/even-deeper",
           },
         ],
@@ -67,11 +97,33 @@ export const Documents: Paths[] = [
     href: "/perancanganantarmuka",
     items: [
       {
-        title: "Deeper",
+        title: "Dokumen Desain",
         href: "/deeper",
         items: [
           {
-            title: "Even deeper",
+            title: "Sketsa Awal",
+            href: "/even-deeper",
+          },
+          {
+            title: "Wireframe",
+            href: "/even-deeper",
+          },
+          {
+            title: "Userflow",
+            href: "/even-deeper",
+          },
+          {
+            title: "Prototipe",
+            href: "/even-deeper",
+          },
+        ],
+      },
+      {
+        title: "Implementasi Desain",
+        href: "/deeper",
+        items: [
+          {
+            title: "Kode Html, CSS, JavaScript",
             href: "/even-deeper",
           },
         ],
@@ -83,11 +135,55 @@ export const Documents: Paths[] = [
     href: "/pengembanganaplikasi",
     items: [
       {
-        title: "Deeper",
+        title: "Fitur Utama",
         href: "/deeper",
         items: [
           {
-            title: "Even deeper",
+            title: "Operasi CRUD",
+            href: "/even-deeper",
+          },
+          {
+            title: "Fitur Login dan Registrasi",
+            href: "/even-deeper",
+          },
+          {
+            title: "Fitur Interaktif",
+            href: "/even-deeper",
+          },
+        ],
+      },
+      {
+        title: "Struktur Basis Data",
+        href: "/deeper",
+        items: [
+          {
+            title: "MYSQL",
+            href: "/even-deeper",
+          },
+        ],
+      },
+      {
+        title: "Metode SDLC",
+        href: "/deeper",
+        items: [
+          {
+            title: "Analisis Kebutuhan",
+            href: "/even-deeper",
+          },
+          {
+            title: "Pembuatan Diagram UML",
+            href: "/even-deeper",
+          },
+          {
+            title: "Pengembangan Kode dan Basis Data",
+            href: "/even-deeper",
+          },
+          {
+            title: "Pengujian Fungsionalitas",
+            href: "/even-deeper",
+          },
+          {
+            title: "Deployment ke Vercel",
             href: "/even-deeper",
           },
         ],
@@ -99,14 +195,8 @@ export const Documents: Paths[] = [
     href: "/dokumentasipenggunaan",
     items: [
       {
-        title: "Deeper",
+        title: "Panduan Penggunaan Website",
         href: "/deeper",
-        items: [
-          {
-            title: "Even deeper",
-            href: "/even-deeper",
-          },
-        ],
       },
     ],
   },
@@ -115,14 +205,16 @@ export const Documents: Paths[] = [
     href: "/metodepengembangan",
     items: [
       {
-        title: "Deeper",
+        title: "Penjelasan Metode yang Digunakan",
         href: "/deeper",
-        items: [
-          {
-            title: "Even deeper",
-            href: "/even-deeper",
-          },
-        ],
+      },
+      {
+        title: "Alasan Memilih Metode",
+        href: "/deeper",
+      },
+      {
+        title: "Implementasi Setiap Tahapan",
+        href: "/deeper",
       },
     ],
   },
@@ -131,14 +223,12 @@ export const Documents: Paths[] = [
     href: "/kesimpulan",
     items: [
       {
-        title: "Deeper",
+        title: "Evaluasi Projek",
         href: "/deeper",
-        items: [
-          {
-            title: "Even deeper",
-            href: "/even-deeper",
-          },
-        ],
+      },
+      {
+        title: "Rekomendai Pengembangan Selanjutnya",
+        href: "/deeper",
       },
     ],
   },
