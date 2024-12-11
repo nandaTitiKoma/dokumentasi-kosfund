@@ -24,12 +24,108 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Navigation",
+    title: "Projek Website Terintegrasi",
     href: "/navigation",
     heading: "Documents",
   },
   {
-    title: "Structure",
+    title: "Pendahuluan",
+    href: "/structure",
+    items: [
+      {
+        title: "Deeper",
+        href: "/deeper",
+        items: [
+          {
+            title: "Even deeper",
+            href: "/even-deeper",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Analisis dan Desain Perangkat Lunak",
+    href: "/structure",
+    items: [
+      {
+        title: "Deeper",
+        href: "/deeper",
+        items: [
+          {
+            title: "Even deeper",
+            href: "/even-deeper",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Perancangan dan Antarmuka",
+    href: "/structure",
+    items: [
+      {
+        title: "Deeper",
+        href: "/deeper",
+        items: [
+          {
+            title: "Even deeper",
+            href: "/even-deeper",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Pengembangan Aplikasi",
+    href: "/structure",
+    items: [
+      {
+        title: "Deeper",
+        href: "/deeper",
+        items: [
+          {
+            title: "Even deeper",
+            href: "/even-deeper",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Dokumentasi Penggunaan Website",
+    href: "/structure",
+    items: [
+      {
+        title: "Deeper",
+        href: "/deeper",
+        items: [
+          {
+            title: "Even deeper",
+            href: "/even-deeper",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Metode Pengembangan Perangkat Lunak",
+    href: "/structure",
+    items: [
+      {
+        title: "Deeper",
+        href: "/deeper",
+        items: [
+          {
+            title: "Even deeper",
+            href: "/even-deeper",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Kesimpulan dan Saran",
     href: "/structure",
     items: [
       {
