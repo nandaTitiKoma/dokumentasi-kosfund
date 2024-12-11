@@ -34,15 +34,15 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Deskripsi Projek",
-        href: "/deeper",
+        href: "/deskripsiprojek",
       },
       {
         title: "Teknologi yang Digunakan",
-        href: "/deeper",
+        href: "/teknologiyangdigunakan",
       },
       {
         title: "Keterkaitan Mata Kuliah",
-        href: "/deeper",
+        href: "/keterkaitanmatkul",
       },
     ],
   },
