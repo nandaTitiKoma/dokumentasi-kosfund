@@ -74,7 +74,7 @@ export const Documents: Paths[] = [
       },
       {
         title: "Diagram",
-        href: "/deeper",
+        href: "/diagram",
         items: [
           {
             title: "Use Case Diagram",
