@@ -52,23 +52,23 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Analisis Kebutuhan",
-        href: "/deeper",
+        href: "/analisis_kebutuhan",
         items: [
           {
             title: "Business Requirement",
-            href: "/even-deeper",
+            href: "/business_requirement",
           },
           {
             title: "Stakeholder Requirement",
-            href: "/even-deeper",
+            href: "/stakeholder_requirement",
           },
           {
             title: "System Requirement",
-            href: "/even-deeper",
+            href: "/system_requirement",
           },
           {
             title: "Software Requirement",
-            href: "/even-deeper",
+            href: "/software_requirement",
           },
         ],
       },
@@ -78,15 +78,15 @@ export const Documents: Paths[] = [
         items: [
           {
             title: "Use Case Diagram",
-            href: "/even-deeper",
+            href: "/use_case",
           },
           {
             title: "Class Diagram",
-            href: "/even-deeper",
+            href: "/class",
           },
           {
             title: "Flowchart",
-            href: "/even-deeper",
+            href: "/flowchart",
           },
         ],
       },
