@@ -3,16 +3,52 @@ title: Software Requiremwnt
 description: Berisi tentang deskripsi singkat dari projek saya
 ---
 
-Aplikasi yang akan saya kembangkan adalah sebuah aplikasi berbasis web untuk pencatatan keuangan.
-Aplikasi ini dirancang untuk membantu pengguna mencatat keuangan mereka, meliputi pemasukan, pengeluaran, 
-dan pengaturan anggaran dalam jangka waktu tertentu.
-Salah satu rencana pengembangan jangka panjang aplikasi ini adalah fitur budgeting otomatis berbasis
-kecerdasan buatan (AI) untuk mempermudah pengguna dalam membuat perencanaan keuangan yang cepat, mudah, dan akurat.
+## Functional Requirements (Kebutuhan Fungsional)
 
-Namun, pada fase pengembangan ini, fokus utama adalah menyediakan fitur inti, yaitu:
+Functional requirements adalah fitur atau fungsi spesifik yang harus ada dalam aplikasi agar dapat 
+memenuhi kebutuhan pengguna. Contoh kebutuhan fungsional untuk aplikasi pencatatan keuangan:
 
-- Membuat catatan keuangan.
-- Menghapus catatan keuangan.
-- Mengedit catatan keuangan.
+#### Autentikasi Pengguna.
 
-Fitur ini diharapkan menjadi fondasi utama sebelum mengintegrasikan fungsi yang lebih kompleks di masa depan.
+- Pengguna harus dapat mendaftar akun menggunakan email dan password.
+- Pengguna dapat masuk (login) untuk mengakses data keuangan pribadi mereka.
+
+
+#### Operasi CRUD
+
+- Pengguna dapat membuat catatan pemasukan dan pengeluaran.
+- Pengguna dapat mengedit atau menghapus catatan keuangan yang telah dibuat.
+- Pengguna dapat melihat semua catatan keuangan yang disusun berdasarkan tanggal atau kategori.
+
+
+#### Manajemen Anggaran (Budgeting)
+
+- Pengguna dapat menetapkan anggaran untuk jangka waktu tertentu.
+- Sistem dapat menampilkan sisa anggaran berdasarkan total pengeluaran.
+
+
+
+## Non-Functional Requirements (Kebutuhan Non-Fungsional)
+
+Non-functional requirements adalah aspek teknis yang mendukung performa, keamanan, dan skalabilitas aplikasi. Contohnya:
+
+#### Keamanan.
+
+- Sistem harus menggunakan enkripsi (misalnya, HTTPS untuk komunikasi data dan hashing untuk penyimpanan password).
+- Tidak ada data pengguna yang dapat diakses tanpa autentikasi yang sah.
+
+
+#### Skalabilitas
+
+- Aplikasi harus dirancang agar mudah diperluas untuk mendukung fitur tambahan, seperti budgeting berbasis AI di masa depan.
+
+
+#### Kompatibilitas
+
+- Aplikasi harus dapat berjalan di browser modern seperti Chrome, Firefox, dan Safari.
+- Aplikasi harus responsif dan dapat digunakan pada perangkat desktop maupun ponsel.
+
+
+#### Maintainability (Kemudahan Pemeliharaan)
+
+- Kode harus modular dan terdokumentasi dengan baik untuk memudahkan pengembang lain melakukan perbaikan atau pengembangan lebih lanjut.
