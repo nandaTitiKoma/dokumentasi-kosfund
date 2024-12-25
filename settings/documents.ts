@@ -98,33 +98,33 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Dokumen Desain",
-        href: "/deeper",
+        href: "/dokumen_desain",
         items: [
           {
             title: "Sketsa Awal",
-            href: "/even-deeper",
+            href: "/sketsa_awal",
           },
           {
             title: "Wireframe",
-            href: "/even-deeper",
+            href: "/wireframe",
           },
           {
             title: "Userflow",
-            href: "/even-deeper",
+            href: "/userflow",
           },
           {
             title: "Prototipe",
-            href: "/even-deeper",
+            href: "/prototipe",
           },
         ],
       },
       {
         title: "Implementasi Desain",
-        href: "/deeper",
+        href: "/implementasi_desain",
         items: [
           {
             title: "Kode Html, CSS, JavaScript",
-            href: "/even-deeper",
+            href: "/kode_html_css_js",
           },
         ],
       },
