@@ -1,0 +1,64 @@
+---
+title: MYSQL
+description: Berisi tabel dari database saya
+---
+
+## Database: kosfunds
+
+### Tabel: admin
+| **Kolom**     | **Tipe Data**  | **Deskripsi**                                              |
+|---------------|----------------|-----------------------------------------------------------|
+| id_admin (PK) | int            | Primary key untuk tabel admin.                            |
+| email         | varchar(225)   | Email admin, digunakan untuk autentikasi.                |
+| name          | varchar(225)   | Nama admin.                                              |
+| password      | varchar(225)   | Password admin yang dienkripsi.                          |
+
+---
+
+### Tabel: user
+| **Kolom**     | **Tipe Data**  | **Deskripsi**                                              |
+|---------------|----------------|-----------------------------------------------------------|
+| id_user (PK)  | int            | Primary key untuk tabel user.                             |
+| email         | varchar(100)   | Email user, digunakan untuk autentikasi.                 |
+| name          | varchar(50)    | Nama user.                                               |
+| password      | varchar(225)   | Password user yang dienkripsi.                           |
+
+---
+
+### Tabel: transaction_inc (Pencatatan Pemasukan)
+| **Kolom**     | **Tipe Data**  | **Deskripsi**                                              |
+|---------------|----------------|-----------------------------------------------------------|
+| id_inc (PK)   | int            | Primary key untuk tabel transaction_inc.                  |
+| id_user (FK)  | int            | Foreign key merujuk ke id_user di tabel user.             |
+| trans_date    | date           | Tanggal transaksi pemasukan.                             |
+| amount        | int            | Jumlah pemasukan yang dicatat.                           |
+| caption       | text           | Keterangan atau deskripsi untuk transaksi pemasukan.     |
+| method        | varchar(50)    | Metode pembayaran (contoh: transfer, tunai, dll).        |
+
+---
+
+### Tabel: transaction_exp (Pencatatan Pengeluaran)
+| **Kolom**     | **Tipe Data**  | **Deskripsi**                                              |
+|---------------|----------------|-----------------------------------------------------------|
+| id_exp (PK)   | int            | Primary key untuk tabel transaction_exp.                  |
+| id_user (FK)  | int            | Foreign key merujuk ke id_user di tabel user.             |
+| trans_date    | date           | Tanggal transaksi pengeluaran.                           |
+| amount        | int            | Jumlah pengeluaran yang dicatat.                         |
+| caption       | text           | Keterangan atau deskripsi untuk transaksi pengeluaran.   |
+| method        | varchar(50)    | Metode pembayaran (contoh: transfer, tunai, dll).        |
+
+---
+
+### Tabel: manual_budgeting
+| **Kolom**         | **Tipe Data**  | **Deskripsi**                                              |
+|--------------------|----------------|-----------------------------------------------------------|
+| mBudgeting_id (PK) | int            | Primary key untuk tabel manual_budgeting.                 |
+| id_user (FK)       | int            | Foreign key merujuk ke id_user di tabel user.             |
+| budget_name        | varchar(100)   | Nama kategori budget (contoh: kebutuhan pokok).          |
+| amount             | int            | Jumlah yang dialokasikan untuk budget.                   |
+
+---
+
+
+
+
