@@ -154,7 +154,7 @@ export const Documents: Paths[] = [
       },
       {
         title: "Struktur Basis Data",
-        href: "/deeper",
+        href: "/basis_data",
         items: [
           {
             title: "MYSQL",
