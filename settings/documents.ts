@@ -136,19 +136,19 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Fitur Utama",
-        href: "/deeper",
+        href: "/fitur_utama",
         items: [
           {
             title: "Operasi CRUD",
-            href: "/even-deeper",
+            href: "/operasi_crud",
           },
           {
             title: "Fitur Login dan Registrasi",
-            href: "/even-deeper",
+            href: "/login_register",
           },
           {
             title: "Fitur Interaktif",
-            href: "/even-deeper",
+            href: "/fitur_interaktif",
           },
         ],
       },
