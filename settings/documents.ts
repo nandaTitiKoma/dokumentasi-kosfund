@@ -164,7 +164,7 @@ export const Documents: Paths[] = [
       },
       {
         title: "Metode SDLC",
-        href: "/metode_sldc",
+        href: "/metode_sdlc",
         items: [
           {
             title: "Analisis Kebutuhan",
