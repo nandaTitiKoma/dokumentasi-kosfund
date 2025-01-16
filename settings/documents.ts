@@ -202,11 +202,11 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Evaluasi Projek",
-        href: "/deeper",
+        href: "/evaluasi_projek",
       },
       {
-        title: "Rekomendai Pengembangan Selanjutnya",
-        href: "/deeper",
+        title: "Rekomendasi Pengembangan Selanjutnya",
+        href: "/rekomendasi_pengembangan_selanjutnya",
       },
     ],
   }
