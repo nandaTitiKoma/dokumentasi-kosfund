@@ -1,46 +1,33 @@
 ---
-title: Introduction
-description: This section provides an overview of Introduction.
+title: Pengujian Fungsionalitas
+description: Penjelasan singkat tentang pengujian manual dari aplikasi
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam
+# Pengujian Manual pada Aplikasi Kosfunds
 
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+## Pendahuluan
+Pengujian manual dilakukan untuk memastikan bahwa setiap fitur pada aplikasi Kosfunds berjalan sesuai dengan spesifikasi yang telah ditentukan dan memberikan pengalaman pengguna yang optimal.
 
-| Syntax        | Description |   Test Text |
-| :------------ | :---------: | ----------: |
-| Header        |    Title    | Here's this |
-| Paragraph     |    Text     |    And more |
-| Strikethrough |             |    ~~Text~~ |
+## Metodologi Pengujian
+Pengujian dilakukan secara manual dengan memeriksa setiap fitur aplikasi menggunakan skenario penggunaan yang telah dirancang sebelumnya. Fitur yang diuji meliputi registrasi, login, CRUD (Create, Read, Update, Delete), serta visualisasi data menggunakan grafik seperti line chart dan doughnut chart.
 
-<CardGrid>
-  <Card
-    title="Page Structure"
-    href="/docs/deep/deeper"
-    icon="alignJustify"
-    variant="small"
-    description="test description"
-  />
-  <Card
-    title="Page Structure"
-    href="/docs/deep/deeper"
-    icon="alignJustify"
-    variant="small"
-  />
-  <Card
-    title="Rubix Studios"
-    href="https://www.rubixstudios.com.au"
-    icon="alignJustify"
-    external={true}
-    variant="small"
-  />
-  <Card
-    title="Rubix Studios"
-    href="https://www.rubixstudios.com.au"
-    image="/images/og-image.png"
-    external={true}
-    variant="image"
-  />
-</CardGrid>
+## Ringkasan Hasil Pengujian
+Dari total 15 skenario pengujian yang dilakukan, semua skenario berhasil diselesaikan tanpa adanya bug atau kesalahan sistem. Pengujian ini dilakukan secara menyeluruh pada berbagai aspek aplikasi, mulai dari pendaftaran pengguna, pengelolaan transaksi, hingga tampilan grafik.
+
+## Detail Hasil Pengujian
+Berikut adalah tabel yang mencatat hasil dari pengujian manual yang telah dilakukan:
+
+| **No** | **Fitur yang Diuji**          | **Skenario**                            | **Hasil yang Diharapkan** | **Hasil Pengujian** | **Status**   |
+|--------|--------------------------------|------------------------------------------|---------------------------|---------------------|--------------|
+| 1      | Registrasi                    | Input email, nama, dan password          | Registrasi berhasil       | Registrasi berhasil | Berhasil     |
+| 2      | Login                         | Input email dan password                 | Login berhasil            | Login berhasil      | Berhasil     |
+| 3      | Tambah Transaksi Pemasukan    | Input data transaksi                     | Data tersimpan            | Data tersimpan      | Berhasil     |
+| 4      | Edit Transaksi Pengeluaran    | Edit data transaksi                      | Data diperbarui           | Data diperbarui     | Berhasil     |
+| 5      | Grafik Line Chart             | Data transaksi ditampilkan di grafik     | Grafik diperbarui         | Grafik diperbarui   | Berhasil     |
+| 6      | Grafik Doughnut              | Data budget ditampilkan di grafik        | Grafik diperbarui         | Grafik diperbarui   | Berhasil     |
+
+## Kesimpulan
+Berdasarkan hasil pengujian manual yang telah dilakukan, semua fitur yang diuji berjalan dengan baik sesuai dengan skenario yang telah dirancang. Tidak ditemukan bug atau kesalahan signifikan dalam pengujian ini, sehingga aplikasi Kosfunds dinyatakan siap untuk digunakan.
+
+## Rekomendasi
+Meski semua fitur berfungsi dengan baik, disarankan untuk melakukan pengujian lebih lanjut pada kasus-kasus ekstrem, seperti input data dalam jumlah besar atau penggunaan aplikasi secara bersamaan oleh banyak pengguna.
