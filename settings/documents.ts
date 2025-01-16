@@ -164,27 +164,27 @@ export const Documents: Paths[] = [
       },
       {
         title: "Metode SDLC",
-        href: "/deeper",
+        href: "/metode_sldc",
         items: [
           {
             title: "Analisis Kebutuhan",
-            href: "/even-deeper",
+            href: "/analisis_kebutuhan",
           },
           {
             title: "Pembuatan Diagram UML",
-            href: "/even-deeper",
+            href: "/diagram_uml",
           },
           {
             title: "Pengembangan Kode dan Basis Data",
-            href: "/even-deeper",
+            href: "/kode_db",
           },
           {
             title: "Pengujian Fungsionalitas",
-            href: "/even-deeper",
+            href: "/pengujian_fungsionalitas",
           },
           {
-            title: "Deployment ke Vercel",
-            href: "/even-deeper",
+            title: "Deployment",
+            href: "/deploy",
           },
         ],
       },
