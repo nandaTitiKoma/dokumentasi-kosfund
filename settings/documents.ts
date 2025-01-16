@@ -196,7 +196,7 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Panduan Penggunaan Website",
-        href: "/deeper",
+        href: "/panduan_penggunaan",
       },
     ],
   },
