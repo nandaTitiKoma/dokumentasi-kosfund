@@ -2,28 +2,6 @@ import { Paths } from "@/lib/pageroutes";
 
 export const Documents: Paths[] = [
   {
-    title: "Introduction",
-    href: "/introduction",
-    heading: "Getting started",
-    items: [
-      {
-        title: "Installation",
-        href: "/installation",
-      },
-      {
-        title: "Setup",
-        href: "/setup",
-      },
-      {
-        title: "Changelog",
-        href: "/changelog",
-      },
-    ],
-  },
-  {
-    spacer: true,
-  },
-  {
     title: "Projek Website Terintegrasi",
     href: "/navigation",
     heading: "Documents",
@@ -231,8 +209,5 @@ export const Documents: Paths[] = [
         href: "/deeper",
       },
     ],
-  },
-  {
-    spacer: true,
   }
 ];
