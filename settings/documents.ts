@@ -206,15 +206,15 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Penjelasan Metode yang Digunakan",
-        href: "/deeper",
+        href: "/penjelasan_metode",
       },
       {
         title: "Alasan Memilih Metode",
-        href: "/deeper",
+        href: "/alasan_metode",
       },
       {
         title: "Implementasi Setiap Tahapan",
-        href: "/deeper",
+        href: "/implementasi_metode",
       },
     ],
   },
